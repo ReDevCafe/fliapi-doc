@@ -31,7 +31,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dep
-        run: bun Install
+        run: bun install
 
       - name: Build 
         run: bun run docs:build
