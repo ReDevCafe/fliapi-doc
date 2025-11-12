@@ -43,9 +43,13 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Recreate UE/Game Functions',
-            link: '/api-documentation/advanced/game-function-proxy'
-          }
+            text: 'Advanced',
+            items: 
+            [
+              { text: 'Recreate UE/Game Functions', link: '/api-documentation/advanced/game-function-proxy' },
+            ]
+          },
+
         ]
       }
     ],
