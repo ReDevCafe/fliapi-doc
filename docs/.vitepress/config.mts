@@ -41,6 +41,10 @@ export default defineConfig({
               { text: 'Mod Base', link: '/api-documentation/mod/mod-base' },
               { text: 'Mod Configuration', link: '/api-documentation/mod/configuration' }
             ]
+          },
+          {
+            text: 'Recreate UE/Game Functions',
+            link: '/api-documentation/advanced/game-function-proxy'
           }
         ]
       }
